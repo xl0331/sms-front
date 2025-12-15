@@ -4,7 +4,6 @@
     <div class="common-layout">
       <div class="aside">
         <div class="link"><RouterLink to="/home/grades">学生成绩</RouterLink></div>
-        <div class="link"><RouterLink to="/home/attendance">考勤管理</RouterLink></div>
         <div class="link"><RouterLink to="/home/courses">课程信息</RouterLink></div>
         <div class="link"><RouterLink to="/home/students">学生档案</RouterLink></div>
         <div class="link"><RouterLink to="/home/reports">统计报表</RouterLink></div>
