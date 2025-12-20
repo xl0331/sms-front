@@ -4,7 +4,6 @@ import Login from "@/components/Login.vue";
 import Grades from "@/components/Grades.vue";
 import Courses from "@/components/Courses.vue";
 import Students from "@/components/Students.vue";
-import Reports from "@/components/Reports.vue";
 import { useRouter } from 'vue-router'
 import { useTokenStore } from '@/stores/token'
 const routes=[
@@ -26,10 +25,6 @@ const routes=[
             },{
                 path:"/home/students",
                 component:Students           
-            },
-            {
-                path:"/home/reports",
-                component:Reports 
             }
         ]
     },

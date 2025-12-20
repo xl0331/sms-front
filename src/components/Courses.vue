@@ -91,8 +91,8 @@
         <!-- 课程安排信息 -->
         <el-divider>课程安排信息</el-divider>
         
-        <el-form-item label="学期" prop="sem">
-          <el-input v-model="formData.sem" placeholder="例如：2023秋" />
+        <el-form-item label="学期" prop="sem" >
+          <el-input v-model="formData.sem" placeholder="例如：2023秋" :disabled="isEditMode"/>
         </el-form-item>
         <el-form-item label="教室" prop="classroom">
           <el-input v-model="formData.classroom" placeholder="例如：逸夫楼201" />
